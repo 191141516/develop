@@ -23,7 +23,7 @@ services:
       - backend
 
   redis:
-    image: redis-3.0
+    image: jfuwu/redis3
     ports:
       - "6379:6379"
     networks:
