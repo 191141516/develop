@@ -47,6 +47,7 @@ services:
     volumes:
       - "./volumes/apps:/apps"
       - "./nginx/config/conf.d:/etc/nginx/conf.d"
+      - "./volumes/nginx/logs:/logs"
     ports:
       - "80:80"
       - "443:443"
